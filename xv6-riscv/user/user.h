@@ -22,6 +22,7 @@ int getpid(void);
 char* sbrk(int);
 int sleep(int);
 int uptime(void);
+int trace(int); // takes trace_mask as argument
 
 // ulib.c
 int stat(const char*, struct stat*);
