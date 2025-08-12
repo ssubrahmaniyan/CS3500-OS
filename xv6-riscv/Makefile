@@ -144,6 +144,7 @@ UPROGS=\
 	$U/_zombie\
 	$U/_HelloWorld\
 	$U/_PingPong\
+	$U/_Mycat\
 
 fs.img: mkfs/mkfs README $(UPROGS)
 	mkfs/mkfs fs.img README $(UPROGS)
