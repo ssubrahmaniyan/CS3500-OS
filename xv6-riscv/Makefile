@@ -143,6 +143,7 @@ UPROGS=\
 	$U/_wc\
 	$U/_zombie\
 	$U/_trace\
+	$U/_bttest\
 	$U/_HelloWorld\
 	$U/_PingPong\
 	$U/_Mycat\

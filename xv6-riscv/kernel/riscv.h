@@ -1,5 +1,15 @@
 #ifndef __ASSEMBLER__
 
+// copy the s0 frame pointer register to a variable
+
+static inline uint64
+r_fp()
+{
+  uint64 x;
+  asm volatile("mv %0, s0" : "=r" (x));
+  return x;
+}
+
 // which hart (core) is this?
 static inline uint64
 r_mhartid()

@@ -13,3 +13,10 @@ svkv/riscv-tools:v1.0`
 4. Inside the docker, run
 `make clean && make qemu`
 to boot into the OS in a qemu simulated environment
+
+## Assignment 1
+Boot the xv6 operating system on a qemu enviroment and print a hello world message.
+The code to perform the required system calls is written with riscv assembly and can be found in (./xv6-riscv/user/HelloWorld.S)[HelloWorld.S]
+The message can be printed by running `HelloWorld` on the xv6 shell.
+
+## Assignment 2
