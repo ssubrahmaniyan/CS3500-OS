@@ -23,6 +23,7 @@ char* sbrk(int);
 int sleep(int);
 int uptime(void);
 int trace(int); // takes trace_mask as argument
+long freemem(void); // returns the amount of free RAM
 
 // ulib.c
 int stat(const char*, struct stat*);

@@ -145,6 +145,9 @@ UPROGS=\
 	$U/_trace\
 	$U/_bttest\
 	$U/_HelloWorld\
+	$U/_Find\
+	$U/_Freemem\
+	$U/_Xargs\
 	$U/_PingPong\
 	$U/_Mycat\
 
