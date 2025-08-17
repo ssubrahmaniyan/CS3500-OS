@@ -23,6 +23,7 @@ The code to perform the required system calls is written with riscv assembly and
 The message can be printed by running `HelloWorld` on the xv6 shell.
 
 ## Assignment 2
-Add trace system call and kernel backtrace
+Add trace system call and kernel backtrace.
+The codes for the same are found in the appropriate files. They can be tested with the `trace` command, and by running `bttest`
 
 
