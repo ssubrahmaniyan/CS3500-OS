@@ -2,7 +2,7 @@
 #include "user/user.h"
 #include "kernel/fcntl.h"
 
-int main(int argc, char *argv[]){
+void main(int argc, char *argv[]){
   if(argc <= 2){
     fprintf(2, "Usage: trace <mask for calls to trace> <command to run>\n");
     exit(1);
