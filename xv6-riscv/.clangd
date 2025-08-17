@@ -1,3 +1,0 @@
-CompileFlags:
-  Add: ["-Ikernel", "-I.", "-nostdlib", "-ffreestanding", "-std=gnu99"]
-
